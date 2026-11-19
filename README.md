@@ -1,255 +1,158 @@
-# Awesome-Web-Scraping-Anti-Bot-Bypassing
-
-## Top Web Scraping & Anti-Bot Bypassing Ecosystem
-
-
-
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-
-*Focused on Stealth Headless Browsers, TLS/JA3/HTTP2 Fingerprint Spoofing, Anti-Detect Engines, Challenge Solvers & Resilient Web Extraction*  
-
-**Last updated: November 2026**
-
-
-
-This repository (`Awesome-Web-Scraping-Anti-Bot-Bypassing`) tracks notable **SaaS/Hosted platforms** and **open-source projects** for **Web Scraping & Anti-Bot Bypassing** — Top Web Scraping Anti Bot Bypassing (Opensource) 🌟 Star if you like it! 🌟. These tools emulate authentic browser TLS/HTTP2 fingerprints, spoof WebGL/Canvas/Navigator signatures, bypass WAF and bot-management challenges (Cloudflare, Akamai, DataDome, PerimeterX), rotate residential proxies, and adaptively extract data from heavily protected web targets.
-
-
-
-**Examples** include ScrapingBee, Bright Data, Oxylabs, ScraperAPI, Zyte, Smartproxy (Decodo), Apify, WebScraping.AI, Crawlbase, Scrapfly, and `D4Vinci/Scrapling` (the category leaders).
-
-
-
-**Open-source emphasis**: This section is heavily expanded with every major active project for adaptive stealth scraping, C++-level anti-detect browsers, CDP-native driverless Chrome automation, browser-impersonating HTTP/TLS clients, and self-hosted challenge-solving proxies — ideal for data engineers, security researchers, QA automation teams, and web scraping developers.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saashosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[Bright Data](https://brightdata.com)**  
-
-  Enterprise web unlocker, Scraping Browser, and global residential/mobile proxy infrastructure engineered to automatically bypass complex anti-bot systems at scale.
-
-
-
-- **[Oxylabs](https://oxylabs.io)**  
-
-  Cloud web scraping platform featuring Web Unblocker AI, headless browser rendering, dynamic fingerprint management, and large-scale residential proxy pools.
-
-
-
-- **[Zyte API](https://zyte.com)**  
-
-  AI-powered smart scraping API handling automatic IP rotation, headless browser rendering, session management, and transparent anti-bot unblocking.
-
-
-
-- **[Scrapfly](https://scrapfly.io)**  
-
-  Developer-focused web scraping API equipped with Anti-Scraping Protection (ASP) bypass, cloud headless browsers, residential proxies, and LLM extraction.
-
-
-
-- **[ScrapingBee](https://scrapingbee.com)**  
-
-  Managed web scraping API providing stealth headless Chrome execution, JavaScript rendering, automatic proxy rotation, and structured CSS/AI extraction.
-
-
-
-- **[ScraperAPI](https://scraperapi.com)**  
-
-  Cloud proxy and unblocking API automating browser header rotation, CAPTCHA handling, and geotargeted residential requests via a single REST endpoint.
-
-
-
-- **[Decodo (formerly Smartproxy)](https://decodo.com)**  
-
-  Web data collection platform combining residential/ISP proxy networks with a managed Web Scraping API and headless browser unblocking.
-
-
-
-- **[Apify](https://apify.com)**  
-
-  Cloud scraping and browser automation platform hosting thousands of pre-built Actors with integrated proxy rotation, session pools, and fingerprint injection.
-
-
-
-- **[Crawlbase](https://crawlbase.com)**  
-
-  Cloud crawling and scraping infrastructure featuring Smart Proxy and headless JavaScript rendering designed to navigate anti-bot defenses reliably.
-
-
-
-- **[WebScraping.AI](https://webscraping.ai)**  
-
-  Simple cloud scraping API bundling rotating proxies, headless Chrome rendering, and built-in LLM question-answering over target web pages.
-
-
-
-- **[Browserbase](https://browserbase.com)**  
-
-  Serverless cloud headless browser infrastructure featuring managed stealth mode, residential proxy routing, session persistence, and live debugging.
-
-
-
-## Open-Source GitHub Projects
-
-
-
-- **[Scrapling (D4Vinci/Scrapling)](https://github.com)**  
-
-  High-performance, adaptive open-source Python web scraping framework featuring built-in `StealthyFetcher`, TLS/HTTP2 fingerprint impersonation, Cloudflare Turnstile/Interstitial bypass, and self-healing element tracking.
-
-
-
-- **[Camoufox (daijro/camoufox)](https://github.com)**  
-
-  Open-source anti-detect Firefox browser and Python SDK that spoofs Navigator, WebGL, AudioContext, Canvas, fonts, and C++ internals without detectable JavaScript injections.
-
-
-
-- **[Nodriver (ultrafunkamsterdam/nodriver)](https://github.com)**  
-
-  Successor to `undetected-chromedriver`; an asynchronous, WebDriver-free Python browser automation library communicating directly over Chrome DevTools Protocol (CDP) to evade bot detection.
-
-
-
-- **[Undetected Chromedriver (ultrafunkamsterdam/undetected-chromedriver)](https://github.com)**  
-
-  Pioneering open-source Python Selenium Chromedriver patcher that strips automation flags (`navigator.webdriver`) and bypasses common WAF/CDN bot checks.
-
-
-
-- **[Zendriver (cdpdriver/zendriver)](https://github.com)**  
-
-  Actively maintained fork of `nodriver` providing fast, async, WebDriver-free Chrome/Chromium automation in Python with enhanced stability and stealth defaults.
-
-
-
-- **[Patchright (Kaliiiiiiiiii-Vinyzu/patchright)](https://github.com)**  
-
-  Open-source patched version of Playwright (available for Python and Node.js) that eliminates CDP `Runtime.enable` leaks and automation signatures at the protocol level.
-
-
-
-- **[Rebrowser Patches (rebrowser/rebrowser-patches)](https://github.com)**  
-
-  Open-source patches for Playwright and Puppeteer fixing `Runtime.enable` detection vectors, isolated execution contexts, and `navigator.webdriver` leaks.
-
-
-
-- **[Puppeteer Extra Stealth (berstend/puppeteer-extra)](https://github.com)**  
-
-  Modular open-source plugin framework for Puppeteer and Playwright featuring `puppeteer-extra-plugin-stealth` to mask headless browser fingerprinting cues.
-
-
-
-- **[SeleniumBase UC Mode (seleniumbase/SeleniumBase)](https://github.com)**  
-
-  All-in-one Python browser automation and testing framework featuring Undetected-Chromedriver (UC) Mode and CDP Mode for stealth scraping and challenge handling.
-
-
-
-- **[Botasaurus (omkarcloud/botasaurus)](https://github.com)**  
-
-  All-in-one open-source Python web scraping framework combining anti-detect browser automation, human-like mouse/keyboard emulation, Cloudflare bypass, and caching.
-
-
-
-- **[curl_cffi (lexiforest/curl_cffi)](https://github.com)**  
-
-  Python bindings for `curl-impersonate` via CFFI, enabling `requests`-style HTTP calls that replicate authentic Chrome, Safari, and Firefox TLS/JA3/JA4 and HTTP/2 handshakes.
-
-
-
-- **[tls-client (bogdanfinn/tls-client)](https://github.com)**  
-
-  Open-source Go HTTP client library built on `utls` that accurately mimics browser TLS ClientHello fingerprints, cipher suites, and HTTP/2 frame ordering.
-
-
-
-- **[CycleTLS (Danny-Dasilva/CycleTLS)](https://github.com)**  
-
-  Open-source Go and Node.js library enabling developers to spoof custom JA3/JA4 TLS fingerprints and HTTP/2 settings without spinning up a full browser.
-
-
-
-- **[ImpIt (apify/impit)](https://github.com)**  
-
-  Open-source Rust-powered HTTP client with Python and Node.js bindings created by Apify to impersonate real browser TLS and HTTP/2 fingerprints natively.
-
-
-
-- **[Primp (deedy5/primp)](https://github.com)**  
-
-  Ultra-fast open-source Python HTTP client written in Rust (built on `reqwest` and `boringssl`) that impersonates modern Chrome, Firefox, Edge, and Safari fingerprints.
-
-
-
-- **[rnet (0x676e67/rnet)](https://github.com)**  
-
-  High-speed open-source Rust and Python HTTP/WebSocket client featuring full TLS, HTTP/2, and browser header impersonation for low-overhead scraping.
-
-
-
-- **[Crawlee (apify/crawlee)](https://github.com)**  
-
-  Full-featured open-source web scraping and browser automation library for Node.js and Python featuring automatic fingerprint generation, session rotation, and proxy management.
-
-
-
-- **[Fingerprint Suite (apify/fingerprint-suite)](https://github.com)**  
-
-  Open-source TypeScript toolkit (`fingerprint-generator` and `fingerprint-injector`) for generating statistically realistic browser fingerprints and injecting them into Playwright/Puppeteer.
-
-
-
-- **[FlareSolverr (FlareSolverr/FlareSolverr)](https://github.com)**  
-
-  Open-source self-hosted proxy server that spins up a stealth headless browser on demand to solve Cloudflare and DDoS-GUARD challenges and return valid session cookies.
-
-
-
-- **[Byparr (ThePhaseless/Byparr)](https://github.com)**  
-
-  Modern open-source drop-in alternative to FlareSolverr built with FastAPI and Camoufox for reliable, low-maintenance anti-bot challenge solving.
-
-
-
-- **[Scrapy-Impersonate (jxlil/scrapy-impersonate)](https://github.com)**  
-
-  Open-source Scrapy download handler integrating `curl_cffi` so Scrapy spiders can spoof browser TLS and HTTP/2 fingerprints natively.
-
-
-
-- **[Scrapy-Playwright (scrapy-plugins/scrapy-playwright)](https://github.com)**  
-
-  Official open-source Scrapy integration allowing spiders to render JavaScript-heavy pages using Playwright contexts and custom stealth hooks.
-
-
-
-- **[Playwright-Stealth (AtuboDad/playwright_stealth)](https://github.com)**  
-
-  Lightweight open-source Python library patching common Playwright browser properties to reduce headless detection fingerprints.
-
-
-
-- **[DrissionPage (g1879/DrissionPage)](https://github.com)**
+# 🌐 Awesome Web Scraping & Anti-Bot Bypassing 🛡️
+
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Web Scraping & Anti-Bot Bypassing Banner" width="100%" />
+</p>
+
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C9%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Web-Scraping-Anti-Bot-Bypassing/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Web-Scraping-Anti-Bot-Bypassing?style=flat-square&logo=github" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Web-Scraping-Anti-Bot-Bypassing/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Web-Scraping-Anti-Bot-Bypassing?style=flat-square&logo=github" alt="GitHub Forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Web-Scraping-Anti-Bot-Bypassing/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-green?style=flat-square" alt="License" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Web-Scraping-Anti-Bot-Bypassing/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome" /></a>
+</p>
+
+---
+
+## ⚡ Quick Navigation 🧭
+
+- [📖 Overview & Key Features](#-overview--key-features-)
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics-)
+- [🏢 SaaS & Hosted Web Unblocking Platforms](#-saas--hosted-web-unblocking-platforms-)
+- [🔓 Open-Source Anti-Detect & Scraping Tools](#-open-source-anti-detect--scraping-tools-)
+- [🛠️ Architectural Cheat Sheet: Defense vs Bypass](#-architectural-cheat-sheet-defense-vs-bypass-)
+- [🤝 How to Contribute](#-how-to-contribute-)
+- [⚖️ Disclaimer](#-disclaimer-)
+
+---
+
+## 📖 Overview & Key Features 🚀
+
+Welcome to the definitive curated directory of **Web Scraping, Anti-Bot Bypassing, and Headless Browser Automation** ecosystems. In modern web data extraction, standard HTTP scrapers face sophisticated Bot Management Systems (BMS) and Web Application Firewalls (WAF) such as **Cloudflare Turnstile & Bot Management**, **Akamai Bot Manager**, **DataDome**, **Kasada**, **PerimeterX (HUMAN Security)**, and **AWS WAF**.
+
+This repository tracks:
+- 🕵️ **Stealth Browser Automation**: Driverless CDP tools, patched Playwright/Puppeteer runtimes, and anti-detect Firefox/Chromium engines.
+- 🔒 **TLS / JA3 / JA4 & HTTP/2 Impersonation**: Replicating exact browser cipher suites, extension orders, and HTTP/2 settings to evade network-layer fingerprinting.
+- 🎭 **Canvas / WebGL / Navigator Spoofing**: Eliminating `navigator.webdriver`, leaking CDP traits, and consistent font/audio rendering.
+- 🌐 **Enterprise Proxy Networks**: Residential, mobile, and datacenter IP rotation pools with automated CAPTCHA challenge solvers.
+
+---
+
+## 📊 Sector Overview & Market Dynamics 📈
+
+> **Estimated Market Size**: The global web scraping software and proxy data collection services market was estimated at **$1.0 – $1.2 billion in 2024** and is projected to expand at a CAGR of **13.5% to exceed $2.5 billion by 2030**, accelerated by LLM synthetic dataset training and real-time enterprise AI retrieval.
+>
+> **Market Fragmentation & Dynamics**: The industry is **moderately fragmented**; while tier-1 infrastructure providers (Bright Data, Oxylabs, Smartproxy) control the majority of residential IP routing capacity, rapid innovation in anti-bot defense algorithms creates continuous openings for agile unblocker APIs and open-source stealth runtimes rather than a strict winner-take-all monopoly.
+
+---
+
+## 🏢 SaaS & Hosted Web Unblocking Platforms ☁️
+
+The following enterprise platforms offer managed proxy routing, headless rendering, and automated anti-bot unblocking. Sorted by **Estimated Revenue / Valuation (Descending)**:
+
+| 🏢 Platform | 💰 Pricing (Starting Tier) | 🎁 Free Tier / Trial Limits | 📈 Scale (Revenue / Valuation) | 🛡️ Key Capabilities |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Bright Data](https://brightdata.com)** 🌐 | **$500/month** (Micro-package) or Pay-as-you-go ($8.40/GB resi, $1.50/k browser requests) | **7-day free trial** with **$5 trial credit** for businesses | **~$350M+ Valuation** (~$120M+ ARR, acquired by EMK Capital) | Enterprise Web Unlocker, Scraping Browser, 72M+ residential IPs, CAPTCHA solver |
+| **[Oxylabs](https://oxylabs.io)** ⚡ | **$49/month** (Starter Web Unblocker / Scraping API; Pay-as-you-go from $8/GB) | **7-day free trial** with **$10 trial credit** (or 5K requests) | **~$100M+ ARR** (bootstrapped tier-1 proxy & data extraction leader) | Web Unblocker AI, dynamic browser fingerprint generation, 100M+ proxy pool |
+| **[Zyte](https://zyte.com)** 🧠 | **$29/month** (Starter Zyte API tier; Pay-as-you-go available) | **$5 free trial credit** valid for **30 days** | **~$50M+ ARR** (pioneers behind Scrapy and headless smart scraping) | AI-powered automatic extraction, smart IP rotation, transparent anti-bot unblocking |
+| **[Decodo (Smartproxy)](https://decodo.com)** 🌍 | **$7/month** (Pay-as-you-go from $3.50/GB residential, $5/month scraping API) | **3-day free trial** with **100MB data limit** or **1,000 scraping requests** | **~$40M+ ARR** (recognized global proxy & unblocking network) | Residential/ISP proxy network, fast Scraping API, headless browser automation |
+| **[Apify](https://apify.com)** 🐝 | **$49/month** (Starter tier for cloud actors & compute) | **Free Forever plan** with **$5 compute credit every month** | **~$20M+ ARR** (raised $3M+ Series A, fast-growing web automation cloud) | Cloud scraping marketplace with thousands of pre-built Actors and headless browser orchestration |
+| **[ScraperAPI](https://scraperapi.com)** 🚀 | **$49/month** (Hobby plan with 100,000 API credits) | **7-day free trial** with **5,000 free API credits** | **~$15M+ ARR** (popular unblocking API among engineering teams) | Single REST endpoint for proxy rotation, headless JS rendering, and CAPTCHA bypass |
+| **[Scrapfly](https://scrapfly.io)** 🛡️ | **$30/month** (Starter plan with 200,000 API credits) | **Free Forever plan** with **1,000 API credits/month** | **~$6M+ ARR** (fast-growing anti-bot bypass specialist) | Anti-Scraping Protection (ASP) bypass, residential proxy integration, built-in screenshot & LLM parsers |
+| **[Browserbase](https://browserbase.com)** 🖥️ | **$20/month** (Developer plan with 1,000 browser session minutes) | **Free Forever tier** with **60 browser session minutes/month** | **~$50M Valuation** (raised $10M+ Series A led by Kleiner Perkins) | Serverless headless Chrome infrastructure with stealth unblocking, session replays, and captcha solver |
+| **[ScrapingBee](https://scrapingbee.com)** 🐝 | **$49/month** (Freelance plan with 250,000 API credits) | **1,000 free API credits** (no time limit on trial usage) | **~$5M+ ARR** (profitable SaaS acquired by private group) | Stealth headless Chrome execution, structured AI/CSS extraction, automated proxy rotation |
+| **[Crawlbase](https://crawlbase.com)** 🕷️ | **$29/month** (Crawl API Starter with 200,000 requests) | **Free Forever plan** with **1,000 free API requests** upon sign-up | **~$4M+ ARR** (formerly ProxyCrawl, established web crawler) | Smart Proxy & Crawling API engineered to evade rate limits and complex anti-scraping systems |
+| **[WebScraping.AI](https://webscraping.ai)** 🤖 | **$19/month** (Starter tier with 100,000 API credits) | **Free Forever plan** with **2,000 API calls/month** | **~$1.5M+ ARR** (lean, boot-strapped AI web unblocker platform) | AI-powered extraction API bundling rotating proxies, JS rendering, and automatic question-answering |
+
+---
+
+## 🔓 Open-Source Anti-Detect & Scraping Tools 💻
+
+The open-source community provides battle-tested stealth libraries, C++-level browser engines, and TLS impersonation clients. Sorted by **GitHub Star Count (Descending)**:
+
+| 📦 Repository & Project | ⭐ GitHub Stars | 🏷️ Category | 📝 Description |
+| :--- | :---: | :---: | :--- |
+| **[Scrapling](https://github.com/D4Vinci/Scrapling)** | [![GitHub stars](https://img.shields.io/github/stars/D4Vinci/Scrapling?style=social&color=white)](https://github.com/D4Vinci/Scrapling/stargazers) | Adaptive Stealth Scraper | High-performance Python framework with built-in `StealthyFetcher`, TLS fingerprint mimicry, and self-healing selectors. |
+| **[Crawlee](https://github.com/apify/crawlee)** | [![GitHub stars](https://img.shields.io/github/stars/apify/crawlee?style=social&color=white)](https://github.com/apify/crawlee/stargazers) | Scraping & Crawling Engine | Full-featured TypeScript/Python scraping engine with session pools, fingerprint generation, and proxy rotation. |
+| **[FlareSolverr](https://github.com/FlareSolverr/FlareSolverr)** | [![GitHub stars](https://img.shields.io/github/stars/FlareSolverr/FlareSolverr?style=social&color=white)](https://github.com/FlareSolverr/FlareSolverr/stargazers) | Proxy Challenge Solver | Self-hosted proxy server running stealth browsers to solve Cloudflare and DDoS-GUARD challenge interstitials. |
+| **[Camoufox](https://github.com/daijro/camoufox)** | [![GitHub stars](https://img.shields.io/github/stars/daijro/camoufox?style=social&color=white)](https://github.com/daijro/camoufox/stargazers) | Anti-Detect Browser | Open-source Firefox fork spoofing WebGL, Canvas, AudioContext, fonts, and OS internals at the C++ level. |
+| **[SeleniumBase](https://github.com/seleniumbase/SeleniumBase)** | [![GitHub stars](https://img.shields.io/github/stars/seleniumbase/SeleniumBase?style=social&color=white)](https://github.com/seleniumbase/SeleniumBase/stargazers) | Test & Bypass Automation | Comprehensive Python automation framework featuring Undetected-Chromedriver (UC) Mode and CDP Mode. |
+| **[Undetected Chromedriver](https://github.com/ultrafunkamsterdam/undetected-chromedriver)** | [![GitHub stars](https://img.shields.io/github/stars/ultrafunkamsterdam/undetected-chromedriver?style=social&color=white)](https://github.com/ultrafunkamsterdam/undetected-chromedriver/stargazers) | Selenium Driver Patcher | Iconic driver patcher that strips `navigator.webdriver` flags and Selenium automation signatures automatically. |
+| **[DrissionPage](https://github.com/g1879/DrissionPage)** | [![GitHub stars](https://img.shields.io/github/stars/g1879/DrissionPage?style=social&color=white)](https://github.com/g1879/DrissionPage/stargazers) | Hybrid Browser / HTTP | Python library combining direct CDP control and `requests`-like network operations without Selenium overhead. |
+| **[Puppeteer Extra](https://github.com/berstend/puppeteer-extra)** | [![GitHub stars](https://img.shields.io/github/stars/berstend/puppeteer-extra?style=social&color=white)](https://github.com/berstend/puppeteer-extra/stargazers) | Automation Plugin Suite | Modular plugin framework featuring `puppeteer-extra-plugin-stealth` to mask headless Chrome leaks. |
+| **[curl-impersonate](https://github.com/lwthiker/curl-impersonate)** | [![GitHub stars](https://img.shields.io/github/stars/lwthiker/curl-impersonate?style=social&color=white)](https://github.com/lwthiker/curl-impersonate/stargazers) | TLS/HTTP2 Impersonator | Custom C `curl` build compiled with BoringSSL to replicate real Chrome, Firefox, and Safari network handshakes. |
+| **[curl_cffi](https://github.com/lexiforest/curl_cffi)** | [![GitHub stars](https://img.shields.io/github/stars/lexiforest/curl_cffi?style=social&color=white)](https://github.com/lexiforest/curl_cffi/stargazers) | Python TLS/JA3 Client | Python CFFI wrapper for `curl-impersonate` enabling authentic browser TLS/JA3/JA4 and HTTP/2 requests. |
+| **[Botasaurus](https://github.com/omkarcloud/botasaurus)** | [![GitHub stars](https://img.shields.io/github/stars/omkarcloud/botasaurus?style=social&color=white)](https://github.com/omkarcloud/botasaurus/stargazers) | All-in-One Scraper | Python web scraping framework combining anti-detect browsing, human-like mouse simulation, and Cloudflare bypass. |
+| **[Patchright](https://github.com/Kaliiiiiiiiii-Vinyzu/patchright)** | [![GitHub stars](https://img.shields.io/github/stars/Kaliiiiiiiiii-Vinyzu/patchright?style=social&color=white)](https://github.com/Kaliiiiiiiiii-Vinyzu/patchright/stargazers) | Patched Playwright | Open-source Playwright driver fork eliminating CDP `Runtime.enable` leaks and bot detection cues. |
+| **[Browser Fingerprinting](https://github.com/niespodd/browser-fingerprinting)** | [![GitHub stars](https://img.shields.io/github/stars/niespodd/browser-fingerprinting?style=social&color=white)](https://github.com/niespodd/browser-fingerprinting/stargazers) | Research & Test Suite | Definitive collection of browser fingerprinting tests, leaks, detection scripts, and bypass strategies. |
+| **[Nodriver](https://github.com/ultrafunkamsterdam/nodriver)** | [![GitHub stars](https://img.shields.io/github/stars/ultrafunkamsterdam/nodriver?style=social&color=white)](https://github.com/ultrafunkamsterdam/nodriver/stargazers) | Driverless CDP Automation | Next-generation asynchronous Python Chrome automation library operating directly over CDP without WebDriver. |
+| **[Fingerprint Suite](https://github.com/apify/fingerprint-suite)** | [![GitHub stars](https://img.shields.io/github/stars/apify/fingerprint-suite?style=social&color=white)](https://github.com/apify/fingerprint-suite/stargazers) | Fingerprint Generation | Generates realistic browser fingerprints and injects them into Playwright and Puppeteer runtimes. |
+| **[CloudflareBypassForScraping](https://github.com/sarperavci/CloudflareBypassForScraping)** | [![GitHub stars](https://img.shields.io/github/stars/sarperavci/CloudflareBypassForScraping?style=social&color=white)](https://github.com/sarperavci/CloudflareBypassForScraping/stargazers) | Challenge Solver | Python utility tailored to solve Cloudflare Turnstile and interstitial verification challenges. |
+| **[Byparr](https://github.com/ThePhaseless/Byparr)** | [![GitHub stars](https://img.shields.io/github/stars/ThePhaseless/Byparr?style=social&color=white)](https://github.com/ThePhaseless/Byparr/stargazers) | Anti-Bot Proxy Server | High-performance FastAPI and Camoufox-powered drop-in replacement for FlareSolverr challenge solving. |
+| **[tls-client](https://github.com/bogdanfinn/tls-client)** | [![GitHub stars](https://img.shields.io/github/stars/bogdanfinn/tls-client?style=social&color=white)](https://github.com/bogdanfinn/tls-client/stargazers) | Go TLS Impersonator | Go HTTP library based on `utls` accurately mimicking browser TLS ClientHello fingerprints and HTTP/2 headers. |
+| **[CycleTLS](https://github.com/Danny-Dasilva/CycleTLS)** | [![GitHub stars](https://img.shields.io/github/stars/Danny-Dasilva/CycleTLS?style=social&color=white)](https://github.com/Danny-Dasilva/CycleTLS/stargazers) | JA3/JA4 Spoofing Client | Go and Node.js networking library designed to spoof arbitrary TLS/JA3 signatures and bypass WAF fingerprint blocks. |
+| **[rnet](https://github.com/0x676e67/rnet)** | [![GitHub stars](https://img.shields.io/github/stars/0x676e67/rnet?style=social&color=white)](https://github.com/0x676e67/rnet/stargazers) | Rust TLS/HTTP2 Client | Blazing fast Rust & Python HTTP client with built-in TLS and HTTP/2 frame fingerprint impersonation. |
+| **[Zendriver](https://github.com/cdpdriver/zendriver)** | [![GitHub stars](https://img.shields.io/github/stars/cdpdriver/zendriver?style=social&color=white)](https://github.com/cdpdriver/zendriver/stargazers) | Driverless Automation | Actively maintained fork of `nodriver` delivering async, driverless Chromium automation with stealth defaults. |
+| **[Scrapy-Playwright](https://github.com/scrapy-plugins/scrapy-playwright)** | [![GitHub stars](https://img.shields.io/github/stars/scrapy-plugins/scrapy-playwright?style=social&color=white)](https://github.com/scrapy-plugins/scrapy-playwright/stargazers) | Scrapy Browser Plugin | Official Scrapy download handler integrating Playwright contexts for JS rendering and challenge bypass. |
+| **[Rebrowser Patches](https://github.com/rebrowser/rebrowser-patches)** | [![GitHub stars](https://img.shields.io/github/stars/rebrowser/rebrowser-patches?style=social&color=white)](https://github.com/rebrowser/rebrowser-patches/stargazers) | Runtime Leak Fixes | Targeted patches for Puppeteer and Playwright eliminating `Runtime.enable` detection and execution leaks. |
+| **[Stealth.min.js](https://github.com/requireCool/stealth.min.js)** | [![GitHub stars](https://img.shields.io/github/stars/requireCool/stealth.min.js?style=social&color=white)](https://github.com/requireCool/stealth.min.js/stargazers) | Client Injection Script | Standalone compiled evasions script injectible into any headless browser session to fool client-side checks. |
+| **[Playwright-Stealth](https://github.com/AtuboDad/playwright_stealth)** | [![GitHub stars](https://img.shields.io/github/stars/AtuboDad/playwright_stealth?style=social&color=white)](https://github.com/AtuboDad/playwright_stealth/stargazers) | Playwright Plugin | Lightweight Python module masking automated browser parameters and fingerprint markers in Playwright. |
+| **[Selenium-Stealth](https://github.com/diprajpatra/selenium-stealth)** | [![GitHub stars](https://img.shields.io/github/stars/diprajpatra/selenium-stealth?style=social&color=white)](https://github.com/diprajpatra/selenium-stealth/stargazers) | Selenium Evasions | Python package preventing Selenium Chromedriver detection by overriding navigator properties and vendor flags. |
+| **[ImpIt](https://github.com/apify/impit)** | [![GitHub stars](https://img.shields.io/github/stars/apify/impit?style=social&color=white)](https://github.com/apify/impit/stargazers) | Rust HTTP Client | High-performance Rust HTTP client created by Apify to impersonate real browser TLS and HTTP/2 handshakes. |
+| **[Primp](https://github.com/deedy5/primp)** | [![GitHub stars](https://img.shields.io/github/stars/deedy5/primp?style=social&color=white)](https://github.com/deedy5/primp/stargazers) | Rust/Python Client | Ultra-fast Python HTTP client written in Rust (BoringSSL) impersonating modern Chrome, Firefox, and Safari. |
+| **[Scrapy-Impersonate](https://github.com/jxlil/scrapy-impersonate)** | [![GitHub stars](https://img.shields.io/github/stars/jxlil/scrapy-impersonate?style=social&color=white)](https://github.com/jxlil/scrapy-impersonate/stargazers) | Scrapy Downloader | Custom Scrapy download handler wrapping `curl_cffi` so spiders bypass TLS fingerprint filters natively. |
+
+---
+
+## 🛠️ Architectural Cheat Sheet: Defense vs Bypass 🧩
+
+```
+       +-------------------------------------------------------------+
+       |                  TARGET WEB APPLICATION                     |
+       +-------------------------------------------------------------+
+                                      ▲
+                                      │
+       +-------------------------------------------------------------+
+       |             WAF / BOT MANAGEMENT DEFENSE LAYERS             |
+       |  (Cloudflare, DataDome, Akamai, PerimeterX, Kasada, AWS WAF)|
+       +-------------------------------------------------------------+
+               ▲                              ▲
+               │ Network & Transport          │ Browser & JavaScript
+               │ Layer Detection              │ Layer Verification
+               │                              │
+     +---------------------+        +--------------------+
+     |   TLS / JA4 / HTTP2 |        | Canvas, WebGL, CDP |
+     |    Fingerprinting   |        |  Automation Flags  |
+     +---------------------+        +--------------------+
+               ▲                              ▲
+               │                              │
+     +---------------------+        +--------------------+
+     | BYPASS: curl_cffi,  |        | BYPASS: Camoufox,  |
+     | curl-impersonate,   |        | Nodriver, Patchright|
+     | CycleTLS, rnet      |        | SeleniumBase UC    |
+     +---------------------+        +--------------------+
+               ▲                              ▲
+               └──────────────┬───────────────┘
+                              │
+               +-----------------------------+
+               |  MANAGED RESIDENTIAL PROXY  |
+               | & RESILIENT SCRAPING STACK  |
+               +-----------------------------+
+```
+
+---
+
+## 🤝 How to Contribute 💡
+
+We welcome contributions to expand this directory! To add or update a tool:
+
+1. 🍴 Fork the repository.
+2. 🌿 Create a feature branch: `git checkout -b feature/add-new-tool`.
+3. 📝 Add your tool to the appropriate section maintaining markdown table structure and accurate metadata.
+4. 🚀 Open a Pull Request with a clear description and links.
+
+---
+
+## ⚖️ Disclaimer 📜
+
+This curated repository is compiled for **educational, security research, and engineering analysis purposes only**. Web data extraction must adhere to applicable laws, terms of service of target websites, and responsible rate limiting practices. Always respect robots.txt and privacy guidelines.
