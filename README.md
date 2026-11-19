@@ -10,6 +10,7 @@
   <a href="https://github.com/ishandutta2007/Awesome-Web-Scraping-Anti-Bot-Bypassing/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Web-Scraping-Anti-Bot-Bypassing?style=flat-square&logo=github" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Web-Scraping-Anti-Bot-Bypassing/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-green?style=flat-square" alt="License" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Web-Scraping-Anti-Bot-Bypassing/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 </p>
 
 ---
@@ -21,6 +22,8 @@
 - [🏢 SaaS & Hosted Web Unblocking Platforms](#-saas--hosted-web-unblocking-platforms-)
 - [🔓 Open-Source Anti-Detect & Scraping Tools](#-open-source-anti-detect--scraping-tools-)
 - [🛠️ Architectural Cheat Sheet: Defense vs Bypass](#-architectural-cheat-sheet-defense-vs-bypass-)
+- [⭐ Star History](#-star-history-)
+- [💖 Support & Sponsorship](#-support--sponsorship-)
 - [🤝 How to Contribute](#-how-to-contribute-)
 - [⚖️ Disclaimer](#-disclaimer-)
 
@@ -139,6 +142,24 @@ The open-source community provides battle-tested stealth libraries, C++-level br
                | & RESILIENT SCRAPING STACK  |
                +-----------------------------+
 ```
+
+---
+
+## ⭐ Star History 📈
+
+[![Star History Chart](https://api.star-history.com/svg?repos=ishandutta2007/Awesome-Web-Scraping-Anti-Bot-Bypassing&type=Date)](https://star-history.com/#ishandutta2007/Awesome-Web-Scraping-Anti-Bot-Bypassing&Date)
+
+---
+
+## 💖 Support & Sponsorship ☕
+
+Thank you for visiting and supporting the **Awesome Web Scraping & Anti-Bot Bypassing** project! 🌟
+
+If you found this ecosystem guide helpful or insightful:
+- ⭐ **Star** this repository to help others discover it!
+- 🍴 **Fork** and contribute new tools, libraries, or fixes.
+- 📢 **Share** this list with colleagues, developer communities, and teams building scrapers.
+- ☕ **Buy me a coffee**: If you'd like to support ongoing curation, research, and maintenance, consider sponsoring via the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007).
 
 ---
 
