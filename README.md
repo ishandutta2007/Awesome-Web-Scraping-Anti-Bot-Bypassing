@@ -71,7 +71,7 @@ The following enterprise platforms offer managed proxy routing, headless renderi
 
 ## 🔓 Open-Source Anti-Detect & Scraping Tools 💻
 
-The open-source community provides battle-tested stealth libraries, C++-level browser engines, and TLS impersonation clients. Sorted by **GitHub Stars_Count (Descending)**:
+The open-source community provides battle-tested stealth libraries, C++-level browser engines, and TLS impersonation clients. Sorted by **GitHub_Stars_Count (Descending)**:
 
 | 📦 Repository & Project | ⭐ GitHub_Stars | 🏷️ Category | 📝 Description |
 | :--- | :---: | :---: | :--- |
